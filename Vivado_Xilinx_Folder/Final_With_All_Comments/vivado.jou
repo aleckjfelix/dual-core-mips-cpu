@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Dec 16 21:21:58 2021
+# Process ID: 17980
+# Current directory: C:/Users/M1Fre/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2948
+# Log file: C:/Users/M1Fre/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/M1Fre/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/project_3.xpr/project_2/project_2.xpr
+save_project_as Final_With_All_Comments F:/Final_Final/Final_With_All_Comments -force
+archive_project F:/Final_Final/Final_With_All_Comments.xpr.zip -temp_dir C:/Users/M1Fre/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-17980-DESKTOP-CB180PQ -force -include_local_ip_cache

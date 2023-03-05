@@ -1,0 +1,31 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_2.srcs/sources_1/new/alu.v" \
+"../../../../project_2.srcs/sources_1/new/alucontrol.v" \
+"../../../../project_2.srcs/sources_1/new/controller.v" \
+"../../../../project_2.srcs/sources_1/new/datapath.v" \
+"../../../../project_2.srcs/sources_1/new/ex_rom.v" \
+"../../../../project_2.srcs/sources_1/new/exmemory.v" \
+"../../../../project_2.srcs/sources_1/new/flop.v" \
+"../../../../project_2.srcs/sources_1/new/flopen.v" \
+"../../../../project_2.srcs/sources_1/new/flopenr.v" \
+"../../../../project_2.srcs/sources_1/new/io_regs.v" \
+"../../../../project_2.srcs/sources_1/new/mem_bus.v" \
+"../../../../project_2.srcs/sources_1/new/mips.v" \
+"../../../../project_2.srcs/sources_1/new/mmu.v" \
+"../../../../project_2.srcs/sources_1/new/mux2.v" \
+"../../../../project_2.srcs/sources_1/new/mux4.v" \
+"../../../../project_2.srcs/sources_1/new/regfile.v" \
+"../../../../project_2.srcs/sources_1/new/seven_segment_controller.v" \
+"../../../../project_2.srcs/sources_1/new/zerodetect.v" \
+
+sv xil_defaultlib  \
+"../../../../project_2.srcs/sources_1/new/random_test.sv" \
+"../../../../project_2.srcs/sources_1/new/instructions.sv" \
+"../../../../project_2.srcs/sources_1/new/coverage_testbench.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

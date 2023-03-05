@@ -1,0 +1,109 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Tue Dec  7 18:11:20 2021
+| Host         : LAPTOP-B3ESP72V running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file multicore_top_control_sets_placed.rpt
+| Design       : multicore_top
+| Device       : xc7a35t
+------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    31 |
+|    Minimum number of control sets                        |    31 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    35 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    31 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     4 |
+| >= 8 to < 10       |     8 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     2 |
+| >= 14 to < 16      |     6 |
+| >= 16              |     9 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              16 |            8 |
+| No           | No                    | Yes                    |              20 |            5 |
+| No           | Yes                   | No                     |             115 |           31 |
+| Yes          | No                    | No                     |              30 |           13 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             104 |           32 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------------+---------------------------------------+-----------------------------+------------------+----------------+--------------+
+|                 Clock Signal                 |             Enable Signal             |       Set/Reset Signal      | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------------------------------+---------------------------------------+-----------------------------+------------------+----------------+--------------+
+|  clk_BUFG                                    | my_core_1/cont/Q[13]                  | reset_IBUF                  |                1 |              4 |         4.00 |
+|  clk_BUFG                                    | my_core_0/cont/Q[13]                  | reset_IBUF                  |                1 |              4 |         4.00 |
+|  clk_BUFG                                    | my_core_1/cont/Q[3]                   | reset_IBUF                  |                2 |              6 |         3.00 |
+|  clk_BUFG                                    | my_core_1/cont/Q[2]                   | reset_IBUF                  |                1 |              6 |         6.00 |
+|  clk_BUFG                                    | my_core_0/cont/Q[3]                   | reset_IBUF                  |                2 |              6 |         3.00 |
+|  clk_BUFG                                    | my_core_0/cont/Q[2]                   | reset_IBUF                  |                1 |              6 |         6.00 |
+|  my_core_1/cont/FSM_onehot_state_reg[6]_0[0] |                                       |                             |                5 |              8 |         1.60 |
+|  clk_BUFG                                    |                                       |                             |                3 |              8 |         2.67 |
+|  clk_BUFG                                    | my_core_1/cont/Q[0]                   | reset_IBUF                  |                2 |              8 |         4.00 |
+|  clk_BUFG                                    | my_core_1/cont/Q[1]                   | reset_IBUF                  |                2 |              8 |         4.00 |
+|  clk_BUFG                                    | my_core_0/cont/Q[0]                   | reset_IBUF                  |                4 |              8 |         2.00 |
+|  clk_BUFG                                    | my_core_0/cont/Q[1]                   | reset_IBUF                  |                3 |              8 |         2.67 |
+|  clk_BUFG                                    | my_core_0/dp/res/E[0]                 | reset_IBUF                  |                1 |              8 |         8.00 |
+|  clk_BUFG                                    | my_core_0/dp/res/E[1]                 | reset_IBUF                  |                3 |              8 |         2.67 |
+|  clk_BUFG                                    | my_core_1/dp/ir0/E[0]                 | reset_IBUF                  |                4 |             12 |         3.00 |
+|  clk_BUFG                                    | my_core_0/dp/ir0/E[0]                 | reset_IBUF                  |                5 |             12 |         2.40 |
+|  clk_BUFG                                    |                                       | my_core_1/dp/ir2/q_reg[2]_0 |                3 |             15 |         5.00 |
+|  clk_BUFG                                    |                                       | my_core_1/dp/ir2/q_reg[5]_0 |                3 |             15 |         5.00 |
+|  clk_BUFG                                    |                                       | my_core_0/dp/ir2/q_reg[2]_0 |                3 |             15 |         5.00 |
+|  clk_BUFG                                    |                                       | my_core_0/dp/ir2/q_reg[5]_0 |                3 |             15 |         5.00 |
+|  clk_BUFG                                    | my_core_1/cont/E[0]                   |                             |                7 |             15 |         2.14 |
+|  clk_BUFG                                    | my_core_0/cont/E[0]                   |                             |                6 |             15 |         2.50 |
+|  clk100m_IBUF_BUFG                           |                                       | clk_reset_IBUF              |                4 |             16 |         4.00 |
+|  clk100m_IBUF_BUFG                           |                                       | reset_IBUF                  |                5 |             20 |         4.00 |
+|  clk_BUFG                                    | my_core_1/dp/mem_offset_reg/p_1_in[0] |                             |                8 |             32 |         4.00 |
+|  clk_BUFG                                    | my_core_1/dp/mem_offset_reg/p_1_in[1] |                             |                8 |             32 |         4.00 |
+|  clk_BUFG                                    | my_core_0/dp/res/p_1_in[0]            |                             |                8 |             32 |         4.00 |
+|  clk_BUFG                                    | my_core_0/dp/res/q_reg[0]_5[0]        |                             |                8 |             32 |         4.00 |
+|  clk_BUFG                                    |                                       | reset_IBUF                  |               15 |             39 |         2.60 |
+|  clk_BUFG                                    | my_core_1/cont/p_0_in__2              |                             |                6 |             48 |         8.00 |
+|  clk_BUFG                                    | my_core_0/cont/p_0_in__1              |                             |                6 |             48 |         8.00 |
++----------------------------------------------+---------------------------------------+-----------------------------+------------------+----------------+--------------+
+
+

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Aleck/Documents/UMD/Semesters/Fall2022/ENEE459D/FinalProject/Vivado_M_Version/Newest/working/project_3.xpr/project_2/project_2.srcs/sources_1/new/random_test.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Aleck/Documents/UMD/Semesters/Fall2022/ENEE459D/FinalProject/Vivado_M_Version/Newest/working/project_3.xpr/project_2/project_2.srcs/sources_1/new/instructions.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Aleck/Documents/UMD/Semesters/Fall2022/ENEE459D/FinalProject/Vivado_M_Version/Newest/working/project_3.xpr/project_2/project_2.srcs/sources_1/new/coverage_testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller_testbench

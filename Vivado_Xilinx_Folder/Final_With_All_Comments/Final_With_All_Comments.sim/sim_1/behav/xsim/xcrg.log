@@ -1,0 +1,27 @@
+
+ Options Set are : 
+
+   Command Line               : D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xcrg.exe -report_format html
+   Help                       : 0
+   File                       : 
+   Input Dir[s]               : ./xsim.covdb
+   Merge Dir                  : xsim.covdb
+   Merge DB Name              : xcrg_mdb
+   Report Directory           : ./xcrg_report
+   Report Format              : html
+   Log File                   : xcrg.log
+   Invocation Name            : D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xcrg.exe
+
+
+                  Functional Coverage Report 
+
+ Restoring Coverage DB[s] from : 
+  1	./xsim.covdb\controller_testbench_behav\xsim.covinfo
+
+
+ Creating Output Directory            : xsim.covdb/xcrg_mdb
+
+ Saving the Coverage Info at          : xsim.covdb/xcrg_mdb/xsim.covinfo
+
+ Created Coverage Report Directory    : ./xcrg_report
+

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1638918585">
+  <File Type="ROUTE-PWR" Name="multicore_top_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="multicore_top.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="multicore_top_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="multicore_top_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="multicore_top.msk"/>
+  <File Type="ROUTE-CLK" Name="multicore_top_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="multicore_top.vdi"/>
+  <File Type="BG-BIT" Name="multicore_top.bit"/>
+  <File Type="BG-DRC" Name="multicore_top.drc"/>
+  <File Type="BG-BGN" Name="multicore_top.bgn"/>
+  <File Type="BG-BIN" Name="multicore_top.bin"/>
+  <File Type="BITSTR-RBT" Name="multicore_top.rbt"/>
+  <File Type="BITSTR-NKY" Name="multicore_top.nky"/>
+  <File Type="BITSTR-BMM" Name="multicore_top_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="multicore_top.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="multicore_top_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="multicore_top.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="multicore_top_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="multicore_top.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="multicore_top_drc_routed.rpx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="CFI_FILE" Name="multicore_top.cfi"/>
+  <File Type="OPT-DRC" Name="multicore_top_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="multicore_top.hwdef"/>
+  <File Type="PLACE-IO" Name="multicore_top_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="multicore_top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="multicore_top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="multicore_top_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="multicore_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="multicore_top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="multicore_top_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="multicore_top_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="multicore_top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="multicore_top_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="multicore_top_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="multicore_top_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="multicore_top_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="multicore_top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="multicore_top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="multicore_top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="multicore_top_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="multicore_top_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="multicore_top_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="multicore_top_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="multicore_top_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="multicore_top_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="multicore_top_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="multicore_top_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="multicore_top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="multicore_top_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="multicore_top_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="multicore_top.pdi"/>
+  <File Type="RCFI_FILE" Name="multicore_top.rcfi"/>
+  <File Type="RNPI_FILE" Name="multicore_top.rnpi"/>
+  <File Type="NPI_FILE" Name="multicore_top.npi"/>
+  <File Type="RBD_FILE" Name="multicore_top.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/multicore_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/Final with VMEM/project_1/project_1.srcs/sources_1/new/multicore_top.v"/>
+        <Attr Name="ImportTime" Val="1638722034"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/alu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/../../../../../../../../../ENEE459_Final/ENEE459_Final.srcs/sources_1/new/alu.v"/>
+        <Attr Name="ImportTime" Val="1637205366"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/alucontrol.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/../../../../../../../../../ENEE459_Final/ENEE459_Final.srcs/sources_1/new/alucontrol.v"/>
+        <Attr Name="ImportTime" Val="1637209549"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/controller.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/../../../../../../../../../ENEE459_Final/ENEE459_Final.srcs/sources_1/new/controller.v"/>
+        <Attr Name="ImportTime" Val="1637266816"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/datapath.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/../../../../../../../../../ENEE459_Final/ENEE459_Final.srcs/sources_1/new/datapath.v"/>
+        <Attr Name="ImportTime" Val="1637350088"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ex_rom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/../../../../../../project_1/project_1.srcs/sources_1/new/ex_rom.v"/>
+        <Attr Name="ImportTime" Val="1638548380"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/exmemory.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/../../../../../../../../../ENEE459_Final/ENEE459_Final.srcs/sources_1/new/exmemory.v"/>
+        <Attr Name="ImportTime" Val="1637266697"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/flop.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/../../../../../../../../../ENEE459_Final/ENEE459_Final.srcs/sources_1/new/flop.v"/>
+        <Attr Name="ImportTime" Val="1637205547"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/flopen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/../../../../../../../../../ENEE459_Final/ENEE459_Final.srcs/sources_1/new/flopen.v"/>
+        <Attr Name="ImportTime" Val="1637205581"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/flopenr.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/../../../../../../../../../ENEE459_Final/ENEE459_Final.srcs/sources_1/new/flopenr.v"/>
+        <Attr Name="ImportTime" Val="1637205607"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/io_regs.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/../../../../../../project_1/project_1.srcs/sources_1/new/io_regs.v"/>
+        <Attr Name="ImportTime" Val="1638544000"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mem_bus.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/../../../../../../../../../ENEE459_Final/ENEE459_Final.srcs/sources_1/new/mem_bus.v"/>
+        <Attr Name="ImportTime" Val="1637216860"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mips.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/../../../../../../../../../ENEE459_Final/ENEE459_Final.srcs/sources_1/new/mips.v"/>
+        <Attr Name="ImportTime" Val="1637349609"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mmu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/../../../../../../project_1/project_1.srcs/sources_1/new/mmu.v"/>
+        <Attr Name="ImportTime" Val="1638548308"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/../../../../../../../../../ENEE459_Final/ENEE459_Final.srcs/sources_1/new/mux2.v"/>
+        <Attr Name="ImportTime" Val="1637205650"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux4.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/../../../../../../../../../ENEE459_Final/ENEE459_Final.srcs/sources_1/new/mux4.v"/>
+        <Attr Name="ImportTime" Val="1637205706"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/regfile.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/../../../../../../../../../ENEE459_Final/ENEE459_Final.srcs/sources_1/new/regfile.v"/>
+        <Attr Name="ImportTime" Val="1637353924"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/seven_segment_controller.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/Final With Seven Segment/project_1/project_1.srcs/sources_1/new/seven_segment_controller.v"/>
+        <Attr Name="ImportTime" Val="1638910910"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/single_core_test.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="F:/../../../../../../../../../ENEE459_Final/ENEE459_Final.srcs/sources_1/new/single_core_test.v"/>
+        <Attr Name="ImportTime" Val="1637214903"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/zerodetect.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/../../../../../../../../../ENEE459_Final/ENEE459_Final.srcs/sources_1/new/zerodetect.v"/>
+        <Attr Name="ImportTime" Val="1637205513"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/random_test.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/Final with VMEM/project_1/project_1.srcs/sources_1/new/random_test.sv"/>
+        <Attr Name="ImportTime" Val="1638819934"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/multi_core_test.v">
+      <FileInfo SFType="SVerilog">
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="F:/../../../../../../../../../ENEE459_Final/ENEE459_Final.srcs/sources_1/new/multi_core_test.v"/>
+        <Attr Name="ImportTime" Val="1637349634"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ENEE459_Final/archive_project_summary.txt">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/../../../../../../ENEE459_Final/archive_project_summary.txt"/>
+        <Attr Name="ImportTime" Val="1638538620"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_1/archive_project_summary.txt">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/Final With Seven Segment/project_1/archive_project_summary.txt"/>
+        <Attr Name="ImportTime" Val="1638910460"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="multicore_top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constr.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/Final with VMEM/project_1/project_1.srcs/constrs_1/new/constr.xdc"/>
+        <Attr Name="ImportTime" Val="1638722046"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>
